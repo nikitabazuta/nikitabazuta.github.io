@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p.red {
+                font-weight: bold;
+            }
+            #header {
+                font-weight: bold;
+            }
+            #main {
+                color: black;
+            }
+            #footer {
+                font-style: italic;
+                
+            }
+            body {
+  font-family: Georgia;
+  font-size: 16px;
+  margin: 0 auto;   /* center content */
+  max-width: 800px; /* limit width */
+  line-height: 1.5;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+P {
+    margin: 12px;
+}
+h1 {
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+h2 {
+    font-weight: 400;
+    font-size: 32px;
+    border-bottom: 1px;
+    margin-bottom: 8px;
+    color: gray;
+}
+h3 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+#header {
+    margin-bottom: 32px;
+    text-align: center;
+    font-weight: bold;
+    text-align: center;
+}
+#footer {
+    margin-top: 64px;
+    text-align: center;
+}
+        </style>    
+        <meta charset="utf-8 ">
+        <link rel="stylesheet" href="style.css">
+        <title>Никита Базута</title>
+    </head>
+    <body>
+        <div id="header"><h1>Никита Базута</h1>
+           <h3>Веб-разработчик</h3>
+           <p> <a href="https://nikitabazuta@gmail.com"> Gmail.com </a> <a href="https://vk.com/nekitnew"> Vk.com </a> </p>       
+        </div>
+        <div id="main"><p>Обучаюсь курсами Хекслет, Веб-программированию.</p>
+         <p>Хочу и готов к обучению и к получениям новых знаний</p>
+         <h2>Опыт работы</h2>
+         <hr>
+         <h4>ООО МФК"Займер"</h4>
+         Подменный оператор Call-Центра(2016-2017)
+         <ul>
+           <li>Работа с дейстующими клиентами</li>
+           <li>Онлайн консультация</li>
+           <li>Отработка возражения</li>
+         </ul>
+         <h4>GoodLine</h4>
+         Оператор Call-Центра(Стажеровка декабрь 2018 - январь 2019)
+         <ul>
+         <li>Онлайн консультация</li>
+         <li>Продажа продукта</li>
+         </ul> 
+         <h2>Образование</h2>
+         <hr>
+         <h4>СТФ КемТИПП</h4>
+         <p>Кафедра холодильных машин и установок.
+            <br>Механи - холодильщик
+         </p>
+         <h2>Другие навыки и увлечения</h2>
+         <hr>
+         <ul> <li>Баскетбол</li>
+             <li>Компьютерные игры</li>
+             <li>Веб-программирование</li>
+         </ul>     
+        </div>
+        <div id="footer">  <p class="red">Никита Базута</p>
+        <p> ул.Леонова,1, Кемерово , Россия +7(902)-666-00-00. </p> <a href="https://nikitabazuta@gmail.com">nikitabazuta@gmail.com</a>
+        </div>
+    </body>        
